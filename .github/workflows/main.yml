@@ -2,13 +2,11 @@ name: CI
 
 on: [push]
 
-
 jobs:
   build:
-
     runs-on: ubuntu-latest
     steps:
     - name: Run pwd
-    - run : pwd
-    - name : Run ls -al
-    - run: ls -al
+      run: pwd
+    - name: Run ls -al
+      run: ls -al
